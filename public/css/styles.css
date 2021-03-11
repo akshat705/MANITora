@@ -1,0 +1,61 @@
+body{
+  font-family: 'Ubuntu';
+}
+
+.manitora{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-left: 0;
+}
+.navbtn{
+  margin-left: 3px;
+  border-color: #ff884b;
+  color: #ff884b;
+}
+.navbtn:hover{
+  background-color:#ffcb91;
+}
+.middle
+{
+  text-align: center;
+  padding:5% 15%;
+}
+.des-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+.des-head-2{
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+}
+.network-image
+{
+  text-align: center;
+  padding: 10% 15% 7%;
+}
+.network{
+  width:25%;
+  height:auto;
+}
+.des-para{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+.row{
+  margin-top: 8%;
+}
+#footer
+{
+  text-align: center;
+  padding:5% 15% 0% 15%;
+}
+.social-icon{
+  margin:3%;
+}
+.carousel{
+  padding: 5% 15%;
+}
