@@ -1,3 +1,43 @@
 <%- include('partials/header') %>
 
+
+
+<%- include('partials/navbar') %>
+
+<div class=" container-fluid network-image" style=" padding:5% 15% 0% 15%; margin:0;">
+  <img src="images/1.PNG" class="network" alt="" style=" width : 15%; height:auto;">
+  <p class="des-head" style=" font-size:2.5rem; ">MANITora</p>
+</div>
+
+<div class="signup-form">
+    <form action="" method="post">
+		<h2>Signup</h2>
+        <div class="form-group">
+			<div class="row">
+				<div class="col"><input type="text" class="form-control shadow-none" name="first_name" placeholder="First Name" required="required"></div>
+				<div class="col"><input type="text" class="form-control shadow-none" name="last_name" placeholder="Last Name" required="required"></div>
+			</div>
+        </div>
+        <div class="form-group">
+        	<input type="email" class="form-control shadow-none" name="email" placeholder="Email" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control shadow-none" name="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control shadow-none" name="confirm_password" placeholder="Confirm Password" required="required">
+        </div>
+
+		<div class="form-group">
+            <button type="submit" class="btn btn-warning btn-lg btn-block shadow-none submit">Register Now</button>
+      </div>
+      <p style="text-align: center;font-weight: 900;">----------------  OR  ----------------</p>
+          <div class="form-group">
+              <button type="submit" class="btn btn-light btn-lg btn-block shadow-none">
+              <i class="fab fa-google fa-1x"></i> Signup with Google</button>
+          </div>
+
+    </form>
+</div>
+
 <%- include('partials/footer') %>
