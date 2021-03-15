@@ -1,7 +1,6 @@
 body{
   font-family: 'Ubuntu';
 }
-
 .manitora{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -51,7 +50,9 @@ body{
 #footer
 {
   text-align: center;
-  padding:5% 15% 0% 15%;
+  margin: 5% 0% 0% 0%;
+    padding: 0%;
+    background-color: #f4f9f9;
 }
 .social-icon{
   margin:3%;
@@ -152,4 +153,76 @@ body{
     flex-grow: 1;
     margin: 0 15px;
     text-align: center
+}
+
+.form-control:focus {
+        border-color: #ff884b;
+        box-shadow: 0 0 0 0.2rem #ffcb91;
+
+}
+
+
+
+/*Ask page*/
+.ask{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.askbtn{
+  border-color: #ff884b;
+  background-color:#ff884b;
+  color:white;
+}
+.askbtn:hover{
+  background-color:#ffcb91;
+  border-color: #ffcb91;
+}
+
+/* discussion page */
+.query-box{
+
+  margin:3% 15%;
+  padding: 2% 2%;
+  background-color:#FFebc7;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+}
+.query-box img{
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  bottom:1.4rem;
+  width:8%;
+  height: auto;
+  margin-right: 1%;
+}
+.query-box .name{
+  margin: 0px;
+  padding: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+.query-box .branch{
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  bottom:5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.query-box .quest{
+  position: relative;
+  bottom: 15px;
+  font-size: 1.5rem;
+}
+.query-box .row{
+  margin: 1% 1% -1% 1%;
+}
+ .action{
+  display: inline-block;
+}
+.query-box .number{
+  margin-left: 3px;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
